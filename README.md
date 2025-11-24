@@ -4,7 +4,7 @@
 This project is a fully functional DIY Geiger counter built around an M4011 Geiger–Müller tube, a custom two-board PCB design, and a retro-style five-digit seven-segment display. It’s portable, battery-powered and easy to build yourself.
 The device measures radiation in µS/h, cpm, and raw counts, with settings stored in EEPROM. Navigation is handled by two buttons, and the counter provides both visual and audible feedback for detected radiation pulses. The project includes a 3D-printed housing with optional decorative elements.  
 All PCBs and the stencil for this project were fabricated by [PCBWay](https://www.pcbway.com/), whose quality and service helped make the build smooth and enjoyable.  
-This repository includes schematics, PCB files, firmware, STL files, and documentation so you can build your own portable Geiger Counter from scratch. You can find the full blog on Instructables: [DIY Geiger Counter](https://www.instructables.com/)
+This repository includes schematics, PCB files, firmware, STL files, and documentation so you can build your own portable Geiger Counter from scratch. You can find the full blog on Instructables: [DIY Geiger Counter](https://www.instructables.com/DIY-Geiger-Counter/)
 
 
 **NOTE:**  
@@ -113,4 +113,4 @@ The Geiger counter is controlled with two buttons. The **lower button** cycles t
 
 The configurable options include battery type (Alkaline, NiMH, or Lithium), sound (On or Off), and LED indicators (On or Off — the warning LED always remains on). All settings are saved in EEPROM, so they remain even after the counter is powered off.
 
-![Geiger Counter](https://github.com/KonradWohlfahrt/MetroWristwatch/blob/main/img/Cover_2.jpg)
+![Geiger Counter](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Cover_2.jpg)
