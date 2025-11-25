@@ -143,8 +143,8 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 # GALLERY
 ![Schematic HV Circuit](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Schematic_GeigerMuellerTube_V2.png)
 _Schematic of the high voltage PCB_  
-![Schematic MainBoard](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Schematic_GeigerMuellerMainBoard_V2.png)
-_Schematic of the main board (V2)_  
+![Schematic MainBoard](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Schematic_GeigerMuellerMainBoard_V3.png)
+_Schematic of the main board (V3)_  
 ![Complete Geiger Counter](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/GeigerCounterComplete.jpg)
 _Complete Geiger Counter Build_  
 ![Housing](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Housing.jpg)
