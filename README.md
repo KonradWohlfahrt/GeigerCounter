@@ -53,6 +53,43 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 
 
 ***
+# ELECTRIC COMPONENTS - MAIN BOARD V3 CIRCUIT:
+| Component | Amount | Silkscreen label |
+|:----------|:------:|-----------------:|
+| BH-AA-A5BJ012 | 1 | B1,B2 |
+| Passive Buzzer 12x9.5 | 1 | BUZ1 |
+| 22uF 0805 | 2 | C1,C2 |
+| 100nF 0805 | 8 | C3-C6,C11-C13,C18 |
+| 22pF 0805 | 2 | C7,C8 |
+| 10uF 0805 | 1 | C9 |
+| 1uF 0805 | 2 | C10,C17 |
+| 100pF 0805 | 2 | C14,C15 |
+| 100uF 1206 | 2 | C14,C15 |
+| 6P (2x3) 2.54 ICSP Header (optional) | 1 | H1 |
+| 5P-2.54 Header | 2 | H3,H4 |
+| Switch 12x12 & Round Button Cover | 2 | KEY1,KEY2 |
+| 4.7uH 3015 | 1 | L1 |
+| 5161BY Seven Segment Digit | 5 | LED1-LED5 |
+| 0805 LED red | 2 | LED6,LED8 |
+| 0805 LED green | 1 | LED7 |
+| MMBT2222A | 3 | Q1-Q3 |
+| 976k | 1 | R1 |
+| 309k | 1 | R2 |
+| 10k | 3 | R3,R9,R10 |
+| 220r | 3 | R4,R12,R14 |
+| 1k | 1 | R5,R11,R13 |
+| 33r | 1 | R6 |
+| 1.2k | 1 | R7 |
+| 680r | 1 | R8 |
+| SKF14L3 | 1 | SW1 |
+| Switch SMD 3x6 | 1 | SW2 |
+| MCP1640CT SOT-23-6 | 1 | U1 |
+| ATmega328P | 1 | U2 |
+| TM1637 | 1 | U3 |
+| 8Mhz/16Mhz 3225 crystal | 1 | X1 |
+
+
+***
 # ELECTRIC COMPONENTS - MAIN BOARD V2 CIRCUIT:
 | Component | Amount | Silkscreen label |
 |:----------|:------:|-----------------:|
@@ -87,30 +124,35 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 | ATmega328P | 1 | U2 |
 | TM1637 | 1 | U3 |
 | 8Mhz/16Mhz 3225 crystal | 1 | X1 |
-| M3 Threaded Heat Insert: 5x4,2mm (height x outer diameter) | 8 | - |
-| M3x6mm | 2 | - |
-| M3x18mm | 3 | - |
-| M3x20mm | 3 | - |
-| M3 Threaded Heat Insert: 3x4,2mm (height x outer diameter) | 1 | - |
-| M3x4mm | 1 | - |
+
+
+***
+# Housing Components:
+| Component | Amount |
+|:----------|-------:|
+| M3 Threaded Heat Insert: 5x4,2mm (height x outer diameter) | 8 |
+| M3x6mm | 2 |
+| M3x18mm | 3 |
+| M3x20mm | 3 |
+| M3 Threaded Heat Insert: 3x4,2mm (height x outer diameter) | 1 |
+| M3x4mm | 1 |
+| AA Battery | 2 |
 
 
 ***
 # GALLERY
 ![Schematic HV Circuit](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Schematic_GeigerMuellerTube_V2.png)
-_Schematic of the high voltage PCB_
+_Schematic of the high voltage PCB_  
 ![Schematic MainBoard](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Schematic_GeigerMuellerMainBoard_V2.png)
-_Schematic of the main board (V2)_
+_Schematic of the main board (V2)_  
 ![Complete Geiger Counter](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/GeigerCounterComplete.jpg)
-_SMD component placement reference (back)_
+_Complete Geiger Counter Build_  
 ![Housing](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Housing.jpg)
-_3D printed housing_
-
+_3D printed housing_  
 
 ***
 # NAVIGATION
-The Geiger counter is controlled with two buttons. The **lower button** cycles through the measurement modes: µS/h (microsieverts per hour), cpm (counts per minute), and total counts. The **upper button** resets the counts to zero, which also restarts the µS/h and cpm readings. Holding down the **upper button** takes you into the settings menu. Once inside, the **lower button** cycles through the available options, while the **upper button** changes the selected setting. A long press exits the menu and returns to the main display.
-
-The configurable options include battery type (Alkaline, NiMH, or Lithium), sound (On or Off), and LED indicators (On or Off — the warning LED always remains on). All settings are saved in EEPROM, so they remain even after the counter is powered off.
+The Geiger counter is controlled with two buttons. The **lower button** cycles through the measurement modes: µS/h (microsieverts per hour), cpm (counts per minute), and total counts. The **upper button** resets the counts to zero, which also restarts the µS/h and cpm readings. Holding down the **upper button** takes you into the settings menu. Once inside, the **lower button** cycles through the available options, while the **upper button** changes the selected setting. A long press exits the menu and returns to the main display.  
+The configurable options include battery type (Alkaline, NiMH, or Lithium), sound (On or Off), and LED indicators (On or Off — the warning LED always remains on). All settings are saved in EEPROM, so they remain even after the counter is powered off.  
 
 ![Geiger Counter](https://github.com/KonradWohlfahrt/GeigerCounter/blob/main/img/Cover_2.jpg)
