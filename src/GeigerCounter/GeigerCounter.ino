@@ -67,10 +67,10 @@ void setup()
   display.show();
   delay(2000);
 
-  // attach interrupt and begin counting
-  attachInterrupt(digitalPinToInterrupt(PULSE_PIN), pulseInterrupt, FALLING);
   resetCounts();
   nextMode();
+
+  attachInterrupt(digitalPinToInterrupt(PULSE_PIN), pulseInterrupt, FALLING);
 }
 void loop() 
 {

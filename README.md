@@ -56,7 +56,7 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 # ELECTRIC COMPONENTS - MAIN BOARD V3 CIRCUIT:
 | Component | Amount | Silkscreen label |
 |:----------|:------:|-----------------:|
-| BH-AA-A5BJ012 | 1 | B1,B2 |
+| BH-AA-A5BJ012 | 2 | B1,B2 |
 | Passive Buzzer 12x9.5 | 1 | BUZ1 |
 | 22uF 0805 | 2 | C1,C2 |
 | 100nF 0805 | 8 | C3-C6,C11-C13,C18 |
@@ -64,7 +64,7 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 | 10uF 0805 | 1 | C9 |
 | 1uF 0805 | 2 | C10,C17 |
 | 100pF 0805 | 2 | C14,C15 |
-| 100uF 1206 | 2 | C14,C15 |
+| 100uF 1206 | 1 | C16 |
 | 6P (2x3) 2.54 ICSP Header (optional) | 1 | H1 |
 | 5P-2.54 Header | 2 | H3,H4 |
 | Switch 12x12 & Round Button Cover | 2 | KEY1,KEY2 |
@@ -77,7 +77,7 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 | 309k | 1 | R2 |
 | 10k | 3 | R3,R9,R10 |
 | 220r | 3 | R4,R12,R14 |
-| 1k | 1 | R5,R11,R13 |
+| 1k | 3 | R5,R11,R13 |
 | 33r | 1 | R6 |
 | 1.2k | 1 | R7 |
 | 680r | 1 | R8 |
@@ -93,7 +93,7 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 # ELECTRIC COMPONENTS - MAIN BOARD V2 CIRCUIT:
 | Component | Amount | Silkscreen label |
 |:----------|:------:|-----------------:|
-| BH-AA-A5BJ012 | 1 | B1,B2 |
+| BH-AA-A5BJ012 | 2 | B1,B2 |
 | Passive Buzzer 12x9.5 | 1 | BUZ1 |
 | 22uF | 2 | C1,C2 |
 | 100nF | 6 | C3-C5,C10-C12 |
@@ -114,7 +114,7 @@ Programmed with the Arduino IDE and [MiniCore board manager](https://mcudude.git
 | 30k | 1 | R2 |
 | 10k | 3 | R3,R9,R10 |
 | 220r | 3 | R4,R12,R14 |
-| 1k | 1 | R5,R11,R13 |
+| 1k | 3 | R5,R11,R13 |
 | 33r | 1 | R6 |
 | 1.2k | 1 | R7 |
 | 680r | 1 | R8 |
